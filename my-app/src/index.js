@@ -1,16 +1,17 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
-import App from './App';
 import reportWebVitals from './reportWebVitals';
-import Slider from './components/slider';
+import Image_with_Description from './components/Image_with_description';
+//import Cards from './components/AnimatedCard';
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <App />
-    <Slider/>
+
+    <Image_with_Description/>
+    
   </React.StrictMode>
 );
 
